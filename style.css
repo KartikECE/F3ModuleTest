@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #fff;
+    text-align: left;
+    margin-right: 75%;
+
+  }
+  
+  form {
+    margin-bottom: 60px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 10px;
+   
+    
+  }
+  
+  input[type="text"] {
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 100%;
+    margin-right: 10px;
+  }
+  button[type="submit"] {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #8624e9;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #d61b3a;
+  }
+  .book {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .book h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .book p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  .book img {
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  #search-history {
+    margin-top: 50px;
+  }
+  
+  #search-history h2 {
+    margin-bottom: 10px;
+  }
+  
+  #history-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #history-list li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  #history-list li:hover {
+    text-decoration: underline;
+  }
+  
+  #clear-history {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: none;
+    background-color: #35dc8e;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  #clear-history:hover {
+   background-color: green;
+  }
